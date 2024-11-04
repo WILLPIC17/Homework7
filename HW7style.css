@@ -1,0 +1,59 @@
+/* Style the page container */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f9;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+}
+
+/* Input and Button styling */
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Task list styling */
+#taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling for completed tasks */
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Buttons for each task */
+.task-button {
+  margin-left: 5px;
+  padding: 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
